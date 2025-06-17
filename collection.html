@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div> 
+        <div class="navbar-menu-toggle" onclick= "showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+<!--Side Navbar-->
+<div class="side-navbar">
+    <p style="text-align: right;" onclick="closeNavbar()">
+        <i class="fa-solid fa-xmark"> </i>
+    </p>
+    <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href="index.html">Home</a></p>
+        <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+        <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+    </div> 
+
+</div>
+
+<!--product-->
+<div class="product-section">
+    <form class="product-search">
+        <input type="text" id="search" placeholder="search">
+        <i class="fa-solid fa-magnifying-glass "></i>
+
+
+    </form>
+
+
+
+    <div class="products" id="products">
+        <div class="products-box">
+            <img src="d:\USERS\Downloads\S46-54832_-IVY-BLOUSE-WHITE-24324-MosTheLabel-D1-1222_600x-removebg-preview.png" alt="">
+            <p>White top</p>
+        </div>
+
+        <div class="products-box">
+            <img src="d:\USERS\Downloads\CB2607EG2Z_BLCK_01-removebg-preview.png" alt="">
+            <p>Black top</p>
+        </div>
+
+        <div class="products-box">
+            <img src="https://i5.walmartimages.com/seo/Time-and-Tru-Women-s-and-Women-s-Plus-Double-Cloth-Midi-Shirtdress-Sizes-XS-4X_6409ffef-3aef-44af-a4b9-58cef952c9b7.b9f3b15e12bc43a3a55ff16722147709.jpeg?odnHeight=432&odnWidth=320&odnBg=FFFFFF" alt="">
+            <p>White top</p>
+        </div>
+
+        <div class="products-box">
+            <img src="https://images.fashiola.co.uk/product-list/300x450/johnlewis/847663405/joelle-floral-cutwork-top.webp" alt="">
+            <p>Black top</p>
+        </div>
+
+        <div class="products-box">
+            <img src="https://www.tuesdaylabel.com/cdn/shop/files/TuesdayLabel-SS24-LB-662.jpg?v=1741912872" alt="">
+            <p>White top</p>
+        </div>
+
+        <div class="products-box">
+            <img src="https://images.fashiola.co.uk/product-list/300x450/johnlewis/847663567/cutwork-embroidered-pure-cotton-dress.webp" alt="">
+            <p>Black top</p>
+        </div>
+        
+    </div>
+
+</div>
+
+
+
+
+
+<!--Footer-->
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2 class="heading text">Nostra</h2>
+            <p>45 Fashion street,Chennai,India</p>
+            <div class="footer-icon-container">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="collection.js"></script>
+</body>
+
+</html>
